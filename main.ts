@@ -6,4 +6,7 @@ mobs.onMobKilled(CHICKEN, function () {
     FillOperation.Replace
     )
 })
-player.say(agent.getPosition())
+player.say(randpos(
+pos(0, 0, 0),
+pos(0, 0, 0)
+))
